@@ -29,7 +29,7 @@
 .task {
 	width: 56%;
 	display: inline-block;
-	flex-grow: 1
+	flex-grow: 1;
 }
 .task-row-wrapper {
 	display: flex;
@@ -122,7 +122,7 @@ li > * {
 	width: 226px;
 }
 .task-text {
-	width: 226px
+	width: 226px;
 }
 .delete:hover {
 	color: #cf2323;
@@ -144,12 +144,12 @@ li > * {
 
 /* Edit Task */
 .task-text {
-	display: none
+	display: none;
 }
 
 .edit-mode .task-text {
 	display: inline-block;
-	width: 224px
+	width: 224px;
 }
 
 .edit-mode .task-label {
